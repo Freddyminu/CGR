@@ -107,6 +107,7 @@ def display():
     #cotovelo
     glTranslatef(-0.25,-1,0) ######################
     glRotatef(vertical2*1.5,1,0,0) # Rotacao Eixo 2 ######################
+    glRotatef(horizontal*3,1,0,0) # Rotacao Eixo 2 ######################
     glPushMatrix() 
     glColor3f(0.5,0,0)
     glRotatef(90,0,1,0)
@@ -123,6 +124,7 @@ def display():
     #reset Necessario para voltar a origem 
     glTranslate(-0.25,+1,0) ######################
     glRotatef(-vertical2*1.5,1,0,0) # Rotacao Eixo 2 ######################
+    glRotatef(-horizontal*3,1,0,0) # Rotacao Eixo 2 ######################
     glTranslatef(0.25,1,0) ######################
     glTranslate(-0.25,1,0) ######################
     glRotatef(-vertical,1,0,0) # Rotacao Eixo 1 ######################
