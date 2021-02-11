@@ -18,7 +18,7 @@ def keyboard(key,x,y):
     print("Render", Render)
     
     #rotacionar o objeto todo em si...
-    passo = 1
+    passo = 2
     passoint = 1
     rotacionarobjeto = 5
 

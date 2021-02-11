@@ -1,0 +1,2 @@
+Necessario a instalacao destes modulos caso seja feito a compilacao pelo windows, será necessario uma instalacao de python versao 3.9 pois os modulos 
+sao compativeis pra essa versao apenas. Buscar online caso nao quera instalar o do python 3.9.
