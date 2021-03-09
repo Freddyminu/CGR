@@ -59,7 +59,7 @@ def display():
     
     # Corpo
     glPushMatrix() # Atualiza o estado
-    glTranslatef(0,0,0) # Move o objeto
+     # Move o objeto
     glColor3f(1,1,1) # Cor do objeto
     glutSolidSphere(1.5,Render,Render) # Tipo de objeto em si
     glPopMatrix() 
@@ -125,7 +125,7 @@ def display():
 
     # Botao 1
     glPushMatrix() 
-    glTranslatef(1.45,0.3,0)
+    glTranslatef(1.45+horizontal,0.3,0)
     glColor3f(0.1,0.1,0.1)
     glutSolidSphere(0.1,Render,Render)
     glPopMatrix()
@@ -180,8 +180,3 @@ if __name__ == '__main__':
 
     glPushMatrix()
     glutMainLoop()
-    
-  
-
-
-

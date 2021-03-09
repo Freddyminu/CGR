@@ -14,6 +14,7 @@ def keyboard(key,x,y):
     print("vertical", vertical)
     print("horizontal", horizontal)
     print("Render", Render)
+
     #rotacionar o objeto todo em si...
     passo = 0.1
     passoint = 1
@@ -49,7 +50,8 @@ def keyboard(key,x,y):
         angulo_h = 300.0
         angulo_v = 0
         horizontal = 1
-        vertical = 0   
+        vertical = 0  
+
 def torreCyclindrica(PosX,PosY,PosZ):
     glPushMatrix() 
     glRotatef(270,1,0,0) 
@@ -79,6 +81,7 @@ def paredeInteira(PosX,PosY,PosZ, Angulo,RotX,RotY,RotZ):
     glutSolidCube(3.24)
     glPopMatrix()
     return
+
 def paredeMetade(PosX, PosY,PosZ):
     glPushMatrix()
     glRotate(90,0,1,0) 
@@ -139,7 +142,7 @@ def Entrada():
     glColor3f(0.8,0.8,0.8)
     glutSolidCube(3.24)
     glPopMatrix()
-    return
+    return  
 def display():
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
 

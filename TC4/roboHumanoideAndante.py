@@ -85,7 +85,6 @@ def display():
     ##################################################################################################################
     #braço Direito... Fazer do Zero. Comecar com o Ombro e ir conectando os membros nele, cada Translate muda a origin.
     #ombro
-
     if vertical2>0:
         vertical2 = vertical*-1
 
@@ -175,7 +174,7 @@ def display():
 
 
     ####################################################################################################################
-    #Perna Esquerdo... Fazer do Zero. Comecar com o Ombro e ir conectando os membros nele, cada Translate muda a origin.
+    #Perna Esquerda... Fazer do Zero. Comecar com o Ombro e ir conectando os membros nele, cada Translate muda a origin.
     #ombro
     glTranslatef(0.45,-3,0) ######################
     glRotatef(vertical,1,0,0) # Rotacao Eixo 1 ######################
